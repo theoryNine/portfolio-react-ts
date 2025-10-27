@@ -25,7 +25,7 @@ const ResumeButton = styled.a`
 
 const DownloadButton = () => {
     return (
-        <ResumeButton target="_blank" rel="noopener" href="https://www.dropbox.com/s/lrne7smjoffj0l0/Ansel%20Colvin%20Resume.pdf?dl=0">
+        <ResumeButton target="_blank" rel="noopener" href="https://www.dropbox.com/scl/fi/0ahz2g8uypyqgybrlbmkf/Ansel-Colvin-Resume.pdf?rlkey=ch0u2v2nhwi9gwygav9pibu3x&dl=0">
             <button>Access Resume</button>
         </ResumeButton>
     )

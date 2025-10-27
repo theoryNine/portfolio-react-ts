@@ -20,22 +20,22 @@ const Skills = () => {
         <SectionWrapper>
             <SectionHeading align="center" content="My Daily Tools" />
             <SkillCardGrid>
-                <SkillCard toolName="HTML/CSS/JavaScript" />
+                <SkillCard toolName="HTML and SCSS" />
+                <SkillCard toolName="JavaScript" />
                 <SkillCard toolName="React" />
                 <SkillCard toolName="Adobe Experience Manager" />
                 <SkillCard toolName="TypeScript" />
+                <SkillCard toolName="Artificial Intelligence" />
                 <SkillCard toolName="SASS/LESS/Stylus" />
-                <SkillCard toolName="Styled Components/Emotion" />
+                <SkillCard toolName="UI Libraries (i.e. MUI)" />
+                <SkillCard toolName="Styled Components" />
             </SkillCardGrid>
             <SectionHeading align="center" content="I Often Tinker With..." />
             <SkillCardGrid>
-                <SkillCard toolName="Vue" />
-                <SkillCard toolName="Angular" />
                 <SkillCard toolName="Next.js" />
                 <SkillCard toolName="React Native" />
-                <SkillCard toolName="UI Libraries (i.e. MUI)" />
-                <SkillCard toolName="WordPress" />
-                <SkillCard toolName="PHP" />
+                <SkillCard toolName="Wordpress" />
+                <SkillCard toolName="Python" />
                 <SkillCard toolName="GraphQL" />
                 <SkillCard toolName="Countless JS Libraries" />
             </SkillCardGrid>

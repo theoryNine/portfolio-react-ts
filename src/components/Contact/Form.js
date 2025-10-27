@@ -91,7 +91,7 @@ const FormContainer = styled.div`
 `
 
 const Form = () => {
-  const [serverState, setServerState] = useState({
+  const [, setServerState] = useState({
     submitting: false,
     status: null
   });

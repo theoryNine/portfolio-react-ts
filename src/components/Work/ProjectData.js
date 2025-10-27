@@ -10,9 +10,22 @@ import CanonMobileSS from "../../images/sitegrabs/canon_mob.png";
 import ACUDesktopSS from "../../images/sitegrabs/acu_full.jpg";
 import FreshDesktopSS from "../../images/sitegrabs/fresh_full.jpg";
 import MazdaMobileSS from "../../images/sitegrabs/Mazda_Mob.png";
-
+import StarbucksDesktopSS from "../../images/sitegrabs/starbucks_full.png";
+import StarbucksMobileSS from "../../images/sitegrabs/starbucks_mob.png";
 
 export const ProjectData = [
+    {
+        "key": 0,
+        "title": "Starbucks",
+        "background": `${StarbucksDesktopSS}`,
+        "screenshot1": `${StarbucksDesktopSS}`,
+        "screenshot2": `${StarbucksMobileSS}`,
+        "screenshot2mob": true,
+        "liveUrl": "https://www.starbucks.com/",
+        "role": "Front-End Lead",
+        "description": "Led a team of front-end engineers alongside back-end engineers, devOps, and QA specialists to build and maintain multiple web properties for Starbucks seeing over 21 million monthly visitors, working with apps and multiple backend systems. Led the development and execution of UI migrations for the sites to a new CMS platform.",
+        "stack": "Adobe Experience Manager (AEM), React, CSS/SASS, JavaScript, TypeScript, Azure"
+    },
     {
         "key": 1,
         "title": "Mazda Brand Academy",

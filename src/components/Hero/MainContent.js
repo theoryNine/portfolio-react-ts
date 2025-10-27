@@ -40,7 +40,7 @@ const SubHeadline = styled.h2`
   }
 `
 
-const SmallHeadline = styled.h3`
+/* const SmallHeadline = styled.h3`
   color: var(--pureWhite);
   font-weight: 300;
   font-size: 1.15rem;
@@ -55,14 +55,13 @@ const SmallHeadline = styled.h3`
   @media (max-width: 420px) {
     font-size: 15px;
   }
-`
+` */
 
 const MainContent = () => {
     return (
         <>
             <Headline>Ansel Colvin</Headline>
-            <SubHeadline>Front-End Developer</SubHeadline>
-            <SmallHeadline>React Developer / Certified AEM Developer</SmallHeadline>
+            <SubHeadline>Senior Engineer</SubHeadline>
             <DownloadButton />
         </>
     )
