@@ -27,7 +27,7 @@ const Seo = ({ title, description }) => {
       />
       <meta property='og:title' content={data.site.siteMetadata.title} />
       <meta property='og:image' content={ShareSS} />
-      <meta property='og:description' content='Front-End Developer'/>
+      <meta property='og:description' content='Senior Web Engineer'/>
       <meta property='og:url' content='https://www.anselcolvin.com' />
     </Helmet>
   );
