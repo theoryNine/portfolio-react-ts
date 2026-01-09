@@ -20,24 +20,24 @@ const Skills = () => {
         <SectionWrapper>
             <SectionHeading align="center" content="My Daily Tools" />
             <SkillCardGrid>
-                <SkillCard toolName="HTML and SCSS" />
-                <SkillCard toolName="JavaScript" />
-                <SkillCard toolName="React" />
-                <SkillCard toolName="Adobe Experience Manager" />
+                <SkillCard toolName="HTML/CSS/JavaScript" />
                 <SkillCard toolName="TypeScript" />
-                <SkillCard toolName="Artificial Intelligence" />
-                <SkillCard toolName="SASS" />
-                <SkillCard toolName="UI Libraries (i.e. MUI)" />
-                <SkillCard toolName="Jest and Cypress" />
-            </SkillCardGrid>
-            <SectionHeading align="center" content="I Often Tinker With..." />
-            <SkillCardGrid>
+                <SkillCard toolName="React" />
                 <SkillCard toolName="Next.js" />
-                <SkillCard toolName="React Native" />
-                <SkillCard toolName="Wordpress" />
-                <SkillCard toolName="Python" />
+                <SkillCard toolName="Zustand" />
+                <SkillCard toolName="Redux" />
+                <SkillCard toolName="Tanstack Query" />
+                <SkillCard toolName="Tanstack Router" />
                 <SkillCard toolName="GraphQL" />
-                <SkillCard toolName="Countless JS Libraries" />
+                <SkillCard toolName="SASS/Emotion/UI Libraries" />
+                <SkillCard toolName="Node.js" />
+                <SkillCard toolName="Adobe Experience Manager" />
+                <SkillCard toolName="Azure DevOps" />
+                <SkillCard toolName="a11y Accessibility" />
+                <SkillCard toolName="Jest/Cypress" />
+                <SkillCard toolName="Storybook" />
+                <SkillCard toolName="Python" />
+                <SkillCard toolName="AI-Assisted Tooling" />
             </SkillCardGrid>
         </SectionWrapper>
     )
