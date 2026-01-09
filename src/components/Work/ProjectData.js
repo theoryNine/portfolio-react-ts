@@ -24,7 +24,7 @@ export const ProjectData = [
         "liveUrl": "https://www.starbucks.com/",
         "role": "Front-End Lead",
         "description": "Led a team of front-end engineers alongside back-end engineers, devOps, and QA specialists to build and maintain multiple web properties for Starbucks seeing over 21 million monthly visitors, working with apps and multiple backend systems. Led the development and execution of UI migrations for the sites to a new CMS platform.",
-        "stack": "Adobe Experience Manager (AEM), React, CSS/SASS, JavaScript, TypeScript, Azure"
+        "stack": "Adobe Experience Manager (AEM), React, CSS/SASS, JavaScript, TypeScript, Azure DevOps, Zustand, Tanstack Query, GraphQL, Accessibility (a11y), Jest, Cypress, Storybook"
     },
     {
         "key": 1,
@@ -35,7 +35,7 @@ export const ProjectData = [
         "screenshot2mob": true,
         "role": "Front-End Lead",
         "description": "Led a team of front-end developers in working alongside a design agency and internal stakeholders to develop a new internal learning portal and sales system, built with React in Adobe Experience Manager, and leveraging multiple APIs as data sources.",
-        "stack": "Adobe Experience Manager (AEM), React, CSS/SASS, JavaScript"
+        "stack": "Adobe Experience Manager (AEM), React, CSS/SASS, JavaScript, react-router, Jest"
     },
     {
         "key": 2,
