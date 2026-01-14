@@ -1,0 +1,39 @@
+import React from "react";
+import styled from "styled-components";
+
+type HeadingProps = {
+    align: string;
+}
+
+type SectionHeadingProps = {
+    content: string;
+    align: string;
+}
+
+const Heading = styled.h2<HeadingProps>`
+    font-family: var(--secondaryFont);
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-shadow: 0 0 3px var(--pureWhite);
+    line-height: 1.2;
+    opacity: .9;
+    color: var(--pureWhite);
+    text-align: ${props => props.align};
+    width: 100%;
+    margin: 1rem 0 1.5rem 0;
+
+    @media (max-width: 767px) {
+        font-size: 1.5em;
+        text-align: center;
+    }
+`
+
+const SectionHeading: React.FC<SectionHeadingProps> = ({ content, align }) => {
+    return (
+        <Heading align={align}>
+            {content}
+        </Heading>
+    )
+}
+
+export default SectionHeading;

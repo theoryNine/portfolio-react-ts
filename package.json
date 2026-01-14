@@ -6,6 +6,7 @@
   "author": "Ansel Colvin <anselcolvin@gmail.com>",
   "dependencies": {
     "@formspree/react": "^2.2.4",
+    "@types/react-helmet": "^6.1.11",
     "axios": "^0.27.2",
     "babel-plugin-styled-components": "^2.0.6",
     "framer-motion": "^6.2.8",
@@ -29,7 +30,11 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "prettier": "^2.6.1"
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@types/styled-components": "^5.1.36",
+    "prettier": "^2.6.1",
+    "typescript": "^5.9.3"
   },
   "keywords": [
     "gatsby"
