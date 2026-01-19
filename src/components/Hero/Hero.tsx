@@ -1,5 +1,3 @@
-// Component Name: Hero (main component)
-
 import React from "react";
 import styled from "styled-components";
 import Starfield from "../Starfield";

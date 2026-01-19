@@ -1,5 +1,3 @@
-// Component Name: Hero Main Content
-
 import React from "react";
 import styled from "styled-components";
 import DownloadButton from "./DownloadButton";
@@ -61,7 +59,7 @@ const MainContent: React.FC = () => {
     return (
         <>
             <Headline>Ansel Colvin</Headline>
-            <SubHeadline>Senior Web Engineer</SubHeadline>
+            <SubHeadline>Senior Engineer</SubHeadline>
             <DownloadButton />
         </>
     )

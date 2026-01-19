@@ -7,11 +7,11 @@ const About: React.FC = () => {
         <AboutWrapper>
             <SectionHeading align="left" content="Nice To Meet You" />
 
-            <p>Hi, I'm Ansel. I'm a self-taught, detail-oriented senior web engineer based out of Kirkland, Washington. I've been tinkering with websites for over two decades now and have been putting my code to work professionally for years. I build clean, coherent, accessible websites and apps to respond to the needs of organizations of all sizes and specialties.</p>
+        <p>Hi, I'm Ansel. I'm a detail-oriented engineer based in Kirkland, Washington, specializing in building AI-powered web applications and intelligent user experiences. With over two decades of web development experience and years of professional impact, I design and ship clean, accessible interfaces paired with modern AI capabilities that solve real problems for organizations of all sizes.</p>
 
-            <p>Outside of code I have a love of traveling and a passion to explore and look forward to plenty of years of seeing new places around the world. I spend my weekends wandering the city walking for miles, taking a roadtrip to a forest trail, gaming on my PC, or toying with code on the couch.</p>
+        <p>Today, I focus on applied AI engineering—integrating LLMs, RAG systems, and machine learning into production web applications using TypeScript, Next.js, and modern AI tooling. I'm passionate about the intersection of thoughtful product design and AI, where complex systems become intuitive experiences.</p>
 
-            <p>Follow along below to get a better understanding of the tools and skills I employ, as well as some of the projects I've worked on in the past.</p>
+        <p>Whether it's architecting full-stack SaaS platforms, building AI-assisted developer tools, or implementing intelligent features that adapt to user needs, I bring a senior engineer's rigor to emerging technology and a product mindset to every line of code.</p>
         </AboutWrapper>
     );
 };
