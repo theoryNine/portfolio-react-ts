@@ -3,6 +3,7 @@ import SectionHeading from "../SectionHeading";
 import SkillCard from "./SkillCard";
 import styled from "styled-components";
 import SectionWrapper from "../SectionWrapper";
+import SectionSubHeading from "../SectionSubHeading";
 
 const SkillCardGrid = styled.div`
     display: flex;
@@ -18,7 +19,8 @@ const SkillCardGrid = styled.div`
 const Skills: React.FC = () => {
     return(
         <SectionWrapper>
-            <SectionHeading align="center" content="My Daily Tools" />
+            <SectionHeading align="center" content="My Skillset" />
+            <SectionSubHeading align="center" content="Front-End and Full-Stack" />
             <SkillCardGrid>
                 <SkillCard toolName="HTML/CSS/JavaScript/TypeScript" />
                 <SkillCard toolName="React" />
@@ -26,19 +28,30 @@ const Skills: React.FC = () => {
                 <SkillCard toolName="Astro & Starwind UI" />
                 <SkillCard toolName="Zustand" />
                 <SkillCard toolName="Redux" />
-                <SkillCard toolName="Tanstack Query" />
-                <SkillCard toolName="Tanstack Router" />
+                <SkillCard toolName="Tanstack" />
                 <SkillCard toolName="GraphQL" />
                 <SkillCard toolName="SASS/Emotion/vanilla-extract" />
                 <SkillCard toolName="Node.js" />
                 <SkillCard toolName="Adobe Experience Manager" />
                 <SkillCard toolName="Azure DevOps" />
-                <SkillCard toolName="a11y Accessibility" />
+                <SkillCard toolName="a11y Accessibility Standards" />
+                <SkillCard toolName="WCAG AA Compliance" />
                 <SkillCard toolName="Jest/Cypress" />
-                <SkillCard toolName="Storybook" />
-                <SkillCard toolName="Python" />
-                <SkillCard toolName="AI-Assisted Processes" />
             </SkillCardGrid>
+            <SectionSubHeading align="center" content="Artificial Intelligence & Machine Learning" />
+            <SkillCardGrid>
+                <SkillCard toolName="Large Language Models (LLMs)" />
+                <SkillCard toolName="Retrieval-Augmented Generation (RAG)" />
+                <SkillCard toolName="Prompt Engineering" />
+                <SkillCard toolName="LangChain" />
+                <SkillCard toolName="Ai-Assisted Development" />
+                <SkillCard toolName="Python" />
+                <SkillCard toolName="PyTorch" />
+                <SkillCard toolName="AI Integration & Tooling" />
+                <SkillCard toolName="Responsible AI Practices" />
+
+            </SkillCardGrid>
+
         </SectionWrapper>
     )
 }
