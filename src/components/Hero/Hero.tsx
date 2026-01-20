@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import Starfield from "../Starfield";
 import Background from "./Background";
@@ -36,8 +36,14 @@ const HeroContainer = styled.div`
 `
 
 const Hero: React.FC = () => {
+    const [animate, setAnimate] = useState<boolean>(false);
+
+    useEffect(() => {
+        setAnimate(true);
+    }, []);
+
     return (
-        <HeroContainer className='animate'>
+        <HeroContainer className={animate === true ? 'animate' : ''}>
           <Background />
           <Starfield />
           <MainContent />
