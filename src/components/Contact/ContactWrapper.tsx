@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const BorderedContainer = styled.div`
@@ -66,8 +66,14 @@ type ContactWrapperProps = {
 }
     
 const ContactWrapper: React.FC<ContactWrapperProps> = ({ children }) => {
+    const [animate, setAnimate] = useState<boolean>(false);
+
+    useEffect(() => {
+        setAnimate(true);
+    }, []);
+    
     return (
-        <BorderedContainer className='animate'>
+        <BorderedContainer className={animate === true ? 'animate' : ''}>
             <InnerContainer>
                 <TextContent>
                     {children}

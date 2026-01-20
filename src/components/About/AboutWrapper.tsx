@@ -93,7 +93,6 @@ const AboutWrapper: React.FC<AboutWrapperProps> = ({ children }) => {
     const [animate, setAnimate] = useState<boolean>(false);
 
     useEffect(() => {
-        // setAnimate sets the animate state
         setAnimate(true);
     }, []);
 
