@@ -31,7 +31,7 @@ const Seo: React.FC<SeoProps> = ({ title, description }) => {
       />
       <meta property='og:title' content={data.site.siteMetadata.title} />
       <meta property='og:image' content='/images/sharess.png' />
-      <meta property='og:description' content='Senior Web Engineer'/>
+      <meta property='og:description' content='Senior Engineer'/>
       <meta property='og:url' content='https://www.anselcolvin.com' />
     </Helmet>
   );
