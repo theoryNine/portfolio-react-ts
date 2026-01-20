@@ -44,7 +44,7 @@ const Skills: React.FC = () => {
                 <SkillCard toolName="Retrieval-Augmented Generation (RAG)" />
                 <SkillCard toolName="Prompt Engineering" />
                 <SkillCard toolName="LangChain" />
-                <SkillCard toolName="Ai-Assisted Development" />
+                <SkillCard toolName="AI-Assisted Development" />
                 <SkillCard toolName="Python" />
                 <SkillCard toolName="PyTorch" />
                 <SkillCard toolName="AI Integration & Tooling" />
