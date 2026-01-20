@@ -39,7 +39,7 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
-        icon: 'src/images/logo.png',
+        icon: "src/images/logo.png",
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
@@ -51,10 +51,10 @@ module.exports = {
       options: {
         fonts: [
           `Mulish\:200,200i,400,400i,500,500i,700,700i`,
-          `Pacifico\:200,200i,400,400i,500,500i,700,700i`
+          `Pacifico\:200,200i,400,400i,500,500i,700,700i`,
         ],
-        display: 'swap'
-      }
+        display: "swap",
+      },
     },
   ],
 }

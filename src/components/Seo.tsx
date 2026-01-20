@@ -1,10 +1,10 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
+import React from "react"
+import Helmet from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
 
 type SeoProps = {
-  title: string;
-  description?: string;
+  title: string
+  description?: string
 }
 
 const Seo: React.FC<SeoProps> = ({ title, description }) => {
@@ -17,7 +17,7 @@ const Seo: React.FC<SeoProps> = ({ title, description }) => {
         }
       }
     }
-  `);
+  `)
 
   return (
     <Helmet
@@ -25,16 +25,13 @@ const Seo: React.FC<SeoProps> = ({ title, description }) => {
       titleTemplate={data.site.siteMetadata.title}
     >
       <title>{title}</title>
-      <meta
-        name='description'
-        content={data.site.siteMetadata.description}
-      />
-      <meta property='og:title' content={data.site.siteMetadata.title} />
-      <meta property='og:image' content='/images/sharess.png' />
-      <meta property='og:description' content='Senior Engineer'/>
-      <meta property='og:url' content='https://www.anselcolvin.com' />
+      <meta name="description" content={data.site.siteMetadata.description} />
+      <meta property="og:title" content={data.site.siteMetadata.title} />
+      <meta property="og:image" content="/images/sharess.png" />
+      <meta property="og:description" content="Senior Engineer" />
+      <meta property="og:url" content="https://www.anselcolvin.com" />
     </Helmet>
-  );
-};
+  )
+}
 
-export default Seo;
+export default Seo

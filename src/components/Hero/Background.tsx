@@ -1,8 +1,8 @@
 // Component Name: Hero Background
 
-import React from "react";
-import styled, { keyframes } from "styled-components";
-import heroBg from "../../images/ClippedStars.png";
+import React from "react"
+import styled, { keyframes } from "styled-components"
+import heroBg from "../../images/ClippedStars.png"
 
 const fadeInUp = keyframes`
   0% {
@@ -16,28 +16,26 @@ const fadeInUp = keyframes`
 `
 
 const HeroBackground = styled.img`
-    position:absolute;
-    opacity: .7;
-    width:900px;
-    height:auto;
-    display:block;
-    z-index:2;
-    bottom: -90%;
-    animation-name: ${fadeInUp};
-    animation-duration: 4s;
-    transition: 2s ease transform;
-    background: var(--black);
+  position: absolute;
+  opacity: 0.7;
+  width: 900px;
+  height: auto;
+  display: block;
+  z-index: 2;
+  bottom: -90%;
+  animation-name: ${fadeInUp};
+  animation-duration: 4s;
+  transition: 2s ease transform;
+  background: var(--black);
 
-    @media (min-width: 3000px) {
-      top: auto;
-      bottom: -50%;
-    }
+  @media (min-width: 3000px) {
+    top: auto;
+    bottom: -50%;
+  }
 `
 
 const Background: React.FC = () => {
-    return (
-        <HeroBackground alt="" src={heroBg} />
-    )
+  return <HeroBackground alt="" src={heroBg} />
 }
 
-export default Background;
+export default Background

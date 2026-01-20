@@ -1,45 +1,47 @@
-import React from "react";
-import styled from "styled-components";
+import React from "react"
+import styled from "styled-components"
 
 const Constellation = styled.svg`
-    height: 100%;
-    stroke: var(--neonPink);
-    stroke-width: 3;
-    transform: rotate(20deg) scale(1.5);
+  height: 100%;
+  stroke: var(--neonPink);
+  stroke-width: 3;
+  transform: rotate(20deg) scale(1.5);
 
+  path {
+    filter: drop-shadow(0 0 10px var(--neonPink));
+    transition: 0.5s ease-out filter, 8s ease-in-out transform;
+  }
+
+  &:hover {
     path {
-        filter: drop-shadow(0 0 10px var(--neonPink));
-        transition: .5s ease-out filter, 8s ease-in-out transform;
+      filter: drop-shadow(0 0 35px var(--neonPink));
+      transform: rotate(5deg);
     }
+  }
 
-    &:hover {
-        path {
-            filter: drop-shadow(0 0 35px var(--neonPink));
-            transform: rotate(5deg);
-        }
-    }
+  @media (max-width: 1280px) {
+    transform: scale(1.2);
+  }
 
-    @media (max-width: 1280px) {
-        transform: scale(1.2);
-    }
-
-    @media (max-width: 1024px) {
-        transform: scale(1);
-    }
+  @media (max-width: 1024px) {
+    transform: scale(1);
+  }
 `
 
 const ConstellationWrapper = styled.div`
-    height: 100%;
-    overflow: visible;
-    z-index: 0;
-    position: absolute;
+  height: 100%;
+  overflow: visible;
+  z-index: 0;
+  position: absolute;
 `
 
 const Aquarius: React.FC = () => {
-    return(
-        <ConstellationWrapper>
-            <Constellation viewBox="0 0 1000 1000" className="animate">
-                <path id="XMLID_1_" d="M820.1494141,94.855835c0,24.7731934-20.0826416,44.855896-44.855835,44.855896
+  return (
+    <ConstellationWrapper>
+      <Constellation viewBox="0 0 1000 1000" className="animate">
+        <path
+          id="XMLID_1_"
+          d="M820.1494141,94.855835c0,24.7731934-20.0826416,44.855896-44.855835,44.855896
                     c-14.0728149,0-26.6262207-6.4854736-34.8501587-16.6251831L535.7272949,261.4460449
                     c2.175415,4.2687988,3.4099731,9.09729,3.4099731,14.21698c0,17.3221436-14.0423584,31.364502-31.364502,31.364502
                     c-9.9536133,0-18.817749-4.6420898-24.5634766-11.873291L297.9638062,407.9421997
@@ -85,10 +87,11 @@ const Aquarius: React.FC = () => {
                     l185.2440796-112.7871094c-1.7722168-3.9296265-2.7666016-8.2854614-2.7666016-12.8761597
                     c0-17.3221436,14.0423584-31.364502,31.364502-31.364502c9.4187012,0,17.8612671,4.1573486,23.6104736,10.7304688
                     l204.7168579-138.3599854c-3.6020508-6.4580688-5.6624146-13.8934326-5.6624146-21.8131714
-                    C730.4376831,70.0826416,750.5203247,50,775.2935791,50C800.0667725,50,820.1494141,70.0826416,820.1494141,94.855835z"/>
-            </Constellation>
-        </ConstellationWrapper>
-    )
+                    C730.4376831,70.0826416,750.5203247,50,775.2935791,50C800.0667725,50,820.1494141,70.0826416,820.1494141,94.855835z"
+        />
+      </Constellation>
+    </ConstellationWrapper>
+  )
 }
 
-export default Aquarius;
+export default Aquarius

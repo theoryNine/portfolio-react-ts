@@ -1,20 +1,20 @@
 :root {
-    --black: #000;
-    --black75: rgb(0,0,0,.75);
-    --black85: rgb(0,0,0,.85);
-    --deeppurple: rgb(12,6,17);
-    --offWhite: rgb(204,208,213);
-    --pureWhite: #fff;
-    --fireTeal: rgb(48, 187, 213);
-    --darkTeal: rgb(30, 114, 129);
-    --aqua: rgb(9, 23, 23);
-    --fireTeal15: rgb(48, 187, 213,.25);
-    --glowTeal: rgb(204, 247, 255);
-    --neonPink: rgb(245, 58, 186);
-    --neonPinkDark1: rgba(245, 58, 186, 0.25);
-    --neonPinkDark2: rgba(245, 58, 186, 0.6);
-    --red: rgb(255, 0, 0);
-    --darkRed: rgb(128, 2, 2);
-    --darkRed15: rgba(255, 0, 0, 0.15);
-    --linkedInBlue: rgb(0, 119, 181);
+  --black: #000;
+  --black75: rgb(0, 0, 0, 0.75);
+  --black85: rgb(0, 0, 0, 0.85);
+  --deeppurple: rgb(12, 6, 17);
+  --offWhite: rgb(204, 208, 213);
+  --pureWhite: #fff;
+  --fireTeal: rgb(48, 187, 213);
+  --darkTeal: rgb(30, 114, 129);
+  --aqua: rgb(9, 23, 23);
+  --fireTeal15: rgb(48, 187, 213, 0.25);
+  --glowTeal: rgb(204, 247, 255);
+  --neonPink: rgb(245, 58, 186);
+  --neonPinkDark1: rgba(245, 58, 186, 0.25);
+  --neonPinkDark2: rgba(245, 58, 186, 0.6);
+  --red: rgb(255, 0, 0);
+  --darkRed: rgb(128, 2, 2);
+  --darkRed15: rgba(255, 0, 0, 0.15);
+  --linkedInBlue: rgb(0, 119, 181);
 }

@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import styled from "styled-components";
-import Starfield from "../Starfield";
-import Background from "./Background";
-import MainContent from "./MainContent";
+import React, { useEffect, useState } from "react"
+import styled from "styled-components"
+import Starfield from "../Starfield"
+import Background from "./Background"
+import MainContent from "./MainContent"
 
 const HeroContainer = styled.div`
   border-bottom: 1px solid var(--fireTeal);
@@ -36,19 +36,19 @@ const HeroContainer = styled.div`
 `
 
 const Hero: React.FC = () => {
-    const [animate, setAnimate] = useState<boolean>(false);
+  const [animate, setAnimate] = useState<boolean>(false)
 
-    useEffect(() => {
-        setAnimate(true);
-    }, []);
+  useEffect(() => {
+    setAnimate(true)
+  }, [])
 
-    return (
-        <HeroContainer className={animate === true ? 'animate' : ''}>
-          <Background />
-          <Starfield />
-          <MainContent />
-        </HeroContainer>
-    )
+  return (
+    <HeroContainer className={animate === true ? "animate" : ""}>
+      <Background />
+      <Starfield />
+      <MainContent />
+    </HeroContainer>
+  )
 }
 
-export default Hero;
+export default Hero

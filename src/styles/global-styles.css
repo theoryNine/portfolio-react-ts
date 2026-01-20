@@ -1,38 +1,38 @@
 html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    font: 112.5%/1.45em georgia, serif, sans-serif;
-    box-sizing: border-box;
-    overflow-y: scroll;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font: 112.5%/1.45em georgia, serif, sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
 }
 
 body {
-    margin: 0;
-    background-color: var(--black);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: var(--offWhite);
-    font-family: 'Mulish';
-    font-weight: normal;
-    word-wrap: break-word;
-    font-kerning: normal;
-    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-    font-feature-settings: "kern", "liga", "clig", "calt";
-    overflow-x: hidden;
+  margin: 0;
+  background-color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--offWhite);
+  font-family: "Mulish";
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  overflow-x: hidden;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --primaryFont: 'Mulish';
-    --secondaryFont: 'Pacifico';
-    --text-shadow-small: 0 0 1px var(--pureWhite);
-    --text-shadow-medium: 0 0 2px var(--pureWhite);
-    --text-shadow-large: 0 0 3px var(--pureWhite);
-    --text-shadow-xl: 0 0 5px var(--pureWhite);
-    --text-shadow-xxl: 0 0 10px var(--pureWhite);
+  --primaryFont: "Mulish";
+  --secondaryFont: "Pacifico";
+  --text-shadow-small: 0 0 1px var(--pureWhite);
+  --text-shadow-medium: 0 0 2px var(--pureWhite);
+  --text-shadow-large: 0 0 3px var(--pureWhite);
+  --text-shadow-xl: 0 0 5px var(--pureWhite);
+  --text-shadow-xxl: 0 0 10px var(--pureWhite);
 }

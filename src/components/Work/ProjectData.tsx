@@ -1,32 +1,32 @@
-import MazdaDesktopSS from "../../images/sitegrabs/mazda_full.png";
-import BNYDesktopSS from "../../images/sitegrabs/bny_full.png";
-import BNYDesktopSS2 from "../../images/sitegrabs/bny_full2.png";
-import BNYMobile from "../../images/sitegrabs/bny_mobile.png";
-import SpectrumDesktopSS from "../../images/sitegrabs/spectrum_mobile_full.jpg";
-import NYLDesktopSS from "../../images/sitegrabs/nyl_full.jpg";
-import ATTDesktopSS from "../../images/sitegrabs/att_full.jpg";
-import CanonDesktopSS from "../../images/sitegrabs/canon_full.jpg";
-import CanonMobileSS from "../../images/sitegrabs/canon_mob.png";
-import ACUDesktopSS from "../../images/sitegrabs/acu_full.jpg";
-import FreshDesktopSS from "../../images/sitegrabs/fresh_full.jpg";
-import MazdaMobileSS from "../../images/sitegrabs/Mazda_Mob.png";
-import StarbucksDesktopSS from "../../images/sitegrabs/starbucks_full.png";
-import StarbucksMobileSS from "../../images/sitegrabs/starbucks_mob.png";
+import MazdaDesktopSS from "../../images/sitegrabs/mazda_full.png"
+import BNYDesktopSS from "../../images/sitegrabs/bny_full.png"
+import BNYDesktopSS2 from "../../images/sitegrabs/bny_full2.png"
+import BNYMobile from "../../images/sitegrabs/bny_mobile.png"
+import SpectrumDesktopSS from "../../images/sitegrabs/spectrum_mobile_full.jpg"
+import NYLDesktopSS from "../../images/sitegrabs/nyl_full.jpg"
+import ATTDesktopSS from "../../images/sitegrabs/att_full.jpg"
+import CanonDesktopSS from "../../images/sitegrabs/canon_full.jpg"
+import CanonMobileSS from "../../images/sitegrabs/canon_mob.png"
+import ACUDesktopSS from "../../images/sitegrabs/acu_full.jpg"
+import FreshDesktopSS from "../../images/sitegrabs/fresh_full.jpg"
+import MazdaMobileSS from "../../images/sitegrabs/Mazda_Mob.png"
+import StarbucksDesktopSS from "../../images/sitegrabs/starbucks_full.png"
+import StarbucksMobileSS from "../../images/sitegrabs/starbucks_mob.png"
 
 export type Project = {
-    key: number;
-    title: string;
-    background: string;
-    screenshot1: string;
-    screenshot1mob?: boolean;
-    screenshot2?: string;
-    screenshot2mob?: boolean;
-    screenshot3?: string;
-    screenshot3mob?: boolean;
-    liveUrl?: string;
-    role?: string;
-    description?: string;
-    stack: string;
+  key: number
+  title: string
+  background: string
+  screenshot1: string
+  screenshot1mob?: boolean
+  screenshot2?: string
+  screenshot2mob?: boolean
+  screenshot3?: string
+  screenshot3mob?: boolean
+  liveUrl?: string
+  role?: string
+  description?: string
+  stack: string
 }
 
 export const ProjectData: Project[] = [
@@ -137,4 +137,4 @@ export const ProjectData: Project[] = [
     liveUrl: "https://freshimagecenter.com/",
     stack: "Wordpress, PHP, HTML, CSS/SASS",
   },
-];
+]

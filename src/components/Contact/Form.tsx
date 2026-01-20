@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import axios from 'axios';
-import LinkedIn from './LinkedIn';
+import React, { useState } from "react"
+import styled from "styled-components"
+import axios from "axios"
+import LinkedIn from "./LinkedIn"
 
 const FormContainer = styled.div`
   margin-left: auto;
@@ -106,80 +106,83 @@ const ThankYouMessage = styled.div`
   @media (max-width: 767px) {
     width: 100%;
   }
-`;
-
+`
 
 type ServerState = {
-  submitting: boolean;
-  status: { ok: boolean; msg: string } | null;
-  showThankYou: boolean;
+  submitting: boolean
+  status: { ok: boolean; msg: string } | null
+  showThankYou: boolean
 }
 
 const Form: React.FC = () => {
-const [serverState, setServerState] = useState<ServerState>({
-  submitting: false,
-  status: null,
-  showThankYou: false // Add this line
-});
-
-const handleServerResponse = (ok: boolean, msg: string, form: HTMLFormElement) => {
-  setServerState({
+  const [serverState, setServerState] = useState<ServerState>({
     submitting: false,
-    status: { ok, msg },
-    showThankYou: ok // Set to true when submission is successful
-  });
-  if (ok) {
-    form.reset();
+    status: null,
+    showThankYou: false, // Add this line
+  })
+
+  const handleServerResponse = (
+    ok: boolean,
+    msg: string,
+    form: HTMLFormElement
+  ) => {
+    setServerState({
+      submitting: false,
+      status: { ok, msg },
+      showThankYou: ok, // Set to true when submission is successful
+    })
+    if (ok) {
+      form.reset()
+    }
   }
-};
 
   const handleOnSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const form = e.currentTarget;
-    setServerState((prev) => ({ ...prev, submitting: true }));
+    e.preventDefault()
+    const form = e.currentTarget
+    setServerState(prev => ({ ...prev, submitting: true }))
     axios({
       method: "post",
       url: "https://getform.io/f/7c407c5a-a765-4595-988d-301d4398a779",
-      data: new FormData(form)
+      data: new FormData(form),
     })
       .then(r => {
-        handleServerResponse(true, "Thanks!", form);
+        handleServerResponse(true, "Thanks!", form)
       })
       .catch(r => {
-        handleServerResponse(false, r.response.data.error, form);
-      });
-  };
+        handleServerResponse(false, r.response.data.error, form)
+      })
+  }
 
   //GetForm.io
   return (
-  <>
-    <FormContainer>
-      {serverState.showThankYou ? (
-        <ThankYouMessage>
-          <h2>Thank You!</h2>
-          <p>Your message has been successfully sent.</p>
-          <p>I'll get back to you as soon as possible.</p>
-        </ThankYouMessage>
-      ) : (
-        <form onSubmit={handleOnSubmit}>
-          <label htmlFor="name">Name</label>
-          <input type="text" name="name" id="name" />
-          <label htmlFor="email">E-Mail Address (Required)</label>
-          <input type="email" name="email" id="email" required />
-          <label htmlFor="message">Message (Required)</label>
-          <textarea name="message" id="message" required />
-          <div>
-            <button type="submit" disabled={serverState.submitting}>
-              {serverState.submitting ? 'Sending...' : 'Send'}
-            </button>
-            <button type="reset">Clear</button>
-          </div>
-        </form>
-      )}
-    </FormContainer>
-    <LinkedIn />
-  </>
-  );
-};
+    <>
+      <FormContainer>
+        {serverState.showThankYou ? (
+          <ThankYouMessage>
+            <h2>Thank You!</h2>
+            <p>Your message has been successfully sent.</p>
+            <p>I'll get back to you as soon as possible.</p>
+          </ThankYouMessage>
+        ) : (
+          <form onSubmit={handleOnSubmit}>
+            <label htmlFor="name">Name</label>
+            <input type="text" name="name" id="name" />
+            <label htmlFor="email">E-Mail Address (Required)</label>
+            <input type="email" name="email" id="email" required />
+            <label htmlFor="message">Message (Required)</label>
+            <textarea name="message" id="message" required />
+            <div>
+              <button type="submit" disabled={serverState.submitting}>
+                {serverState.submitting ? "Sending..." : "Send"}
+              </button>
+              <button type="reset">Clear</button>
+            </div>
+          </form>
+        )}
+      </FormContainer>
+      <LinkedIn />
+    </>
+  )
+}
 
-export default Form;
+export default Form
