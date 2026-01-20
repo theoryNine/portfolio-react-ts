@@ -14,7 +14,7 @@ const Heading = styled.h3<HeadingProps>`
     font-family: var(--secondaryFont);
     font-size: 1.5em;
     letter-spacing: 1px;
-    text-shadow: 0 0 2px var(--pureWhite);
+    text-shadow: 0 0 1px var(--pureWhite);
     line-height: 1.2;
     opacity: .9;
     color: var(--pureWhite);

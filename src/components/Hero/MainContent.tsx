@@ -7,7 +7,7 @@ const Headline = styled.h1`
   font-size: 70px;
   font-family: 'Pacifico';
   font-weight: 700;
-  text-shadow: 0 0 5px var(--pureWhite);
+  text-shadow: 0 0 3px var(--pureWhite);
   line-height: 1;
   margin: 0 0 .5rem;
   z-index: 2;
