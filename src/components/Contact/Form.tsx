@@ -90,26 +90,48 @@ const FormContainer = styled.div`
   }
 `
 
+const ThankYouMessage = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  text-align: center;
+  padding: 0 1rem 1rem 1rem;
+  border: 1px solid var(--fireTeal);
+  color: var(--pureWhite); // Solid text color
+  font-size: 1.2rem;
+  text-shadow: var(--text-shadow-xxl);
+  letter-spacing: 1px;
+  line-height: 1.6;
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+`;
+
+
 type ServerState = {
   submitting: boolean;
   status: { ok: boolean; msg: string } | null;
+  showThankYou: boolean;
 }
 
 const Form: React.FC = () => {
-  const [, setServerState] = useState<ServerState>({
-    submitting: false,
-    status: null
-  });
+const [serverState, setServerState] = useState<ServerState>({
+  submitting: false,
+  status: null,
+  showThankYou: false // Add this line
+});
 
-  const handleServerResponse = (ok: boolean, msg: string, form: HTMLFormElement) => {
-    setServerState({
-      submitting: false,
-      status: { ok, msg }
-    });
-    if (ok) {
-      form.reset();
-    }
-  };
+const handleServerResponse = (ok: boolean, msg: string, form: HTMLFormElement) => {
+  setServerState({
+    submitting: false,
+    status: { ok, msg },
+    showThankYou: ok // Set to true when submission is successful
+  });
+  if (ok) {
+    form.reset();
+  }
+};
 
   const handleOnSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -130,23 +152,33 @@ const Form: React.FC = () => {
 
   //GetForm.io
   return (
-    <>
+  <>
     <FormContainer>
-      <form onSubmit={handleOnSubmit}>
-        <label htmlFor="name">Name</label>
-        <input type="text" name="name" id="name" />
-        <label htmlFor="email">E-Mail Address (Required)</label>
-        <input type="email" name="email" id="email" required />
-        <label htmlFor="message">Message (Required)</label>
-        <textarea name="message" id="message" required />
-        <div>
-          <button type="submit">Send</button>
-          <button type="reset">Clear</button>
-        </div>
-      </form>
+      {serverState.showThankYou ? (
+        <ThankYouMessage>
+          <h2>Thank You!</h2>
+          <p>Your message has been successfully sent.</p>
+          <p>I'll get back to you as soon as possible.</p>
+        </ThankYouMessage>
+      ) : (
+        <form onSubmit={handleOnSubmit}>
+          <label htmlFor="name">Name</label>
+          <input type="text" name="name" id="name" />
+          <label htmlFor="email">E-Mail Address (Required)</label>
+          <input type="email" name="email" id="email" required />
+          <label htmlFor="message">Message (Required)</label>
+          <textarea name="message" id="message" required />
+          <div>
+            <button type="submit" disabled={serverState.submitting}>
+              {serverState.submitting ? 'Sending...' : 'Send'}
+            </button>
+            <button type="reset">Clear</button>
+          </div>
+        </form>
+      )}
     </FormContainer>
     <LinkedIn />
-    </>
+  </>
   );
 };
 
