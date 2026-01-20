@@ -29,5 +29,10 @@ body {
 
 :root {
     --primaryFont: 'Mulish';
-    --secondaryFont: 'Pacifico'; 
+    --secondaryFont: 'Pacifico';
+    --text-shadow-small: 0 0 1px var(--pureWhite);
+    --text-shadow-medium: 0 0 2px var(--pureWhite);
+    --text-shadow-large: 0 0 3px var(--pureWhite);
+    --text-shadow-xl: 0 0 5px var(--pureWhite);
+    --text-shadow-xxl: 0 0 10px var(--pureWhite);
 }

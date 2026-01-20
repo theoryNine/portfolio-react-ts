@@ -8,7 +8,7 @@ const ResumeButton = styled.a`
     button {
         border: 1px solid var(--fireTeal);
         background: var(--darkTeal);
-        text-shadow: 0 0 5px var(--pureWhite);
+        text-shadow: var(--text-shadow-xl);
         color: var(--pureWhite);
         font-size: 1rem;
         padding: 8px;

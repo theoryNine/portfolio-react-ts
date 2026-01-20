@@ -7,7 +7,7 @@ const Headline = styled.h1`
   font-size: 70px;
   font-family: 'Pacifico';
   font-weight: 700;
-  text-shadow: 0 0 3px var(--pureWhite);
+  text-shadow: var(--text-shadow-large);
   line-height: 1;
   margin: 0 0 .5rem;
   z-index: 2;
@@ -24,7 +24,7 @@ const SubHeadline = styled.h2`
   font-family: 'Mulish';
   font-weight: 400;
   letter-spacing: .2rem;
-  text-shadow: 0 0 2px var(--pureWhite);
+  text-shadow: var(--text-shadow-small);
   margin: 0;
   margin-bottom: .5rem;
   line-height: 1;

@@ -20,7 +20,7 @@ const Container = styled.div`
         font-size: 1.1rem;
         font-family: var(--primaryFont);
         letter-spacing: 3px;
-        text-shadow: 0 0 10px var(--pureWhite);
+        text-shadow: var(--text-shadow-xxl);
         border: 1px solid var(--linkedInBlue);
         cursor: pointer;
         margin-left: .5rem;

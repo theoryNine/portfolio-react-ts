@@ -19,7 +19,7 @@ const FormContainer = styled.div`
   button[type="submit"] {
     border: 1px solid var(--fireTeal);
     background: var(--darkTeal);
-    text-shadow: 0 0 5px var(--pureWhite);
+    text-shadow: var(--text-shadow-xl);
     color: var(--pureWhite);
     font-size: 1rem;
     padding: 8px 50px;
@@ -37,7 +37,7 @@ const FormContainer = styled.div`
   button[type="reset"] {
     border: 1px solid var(--red);
     background: var(--darkRed);
-    text-shadow: 0 0 5px var(--pureWhite);
+    text-shadow: var(--text-shadow-xl);
     color: var(--pureWhite);
     font-size: 1rem;
     padding: 8px;
@@ -58,7 +58,7 @@ const FormContainer = styled.div`
 
     label {
       text-transform: uppercase;
-      text-shadow: 0 0 10px var(--pureWhite);
+      text-shadow: var(--text-shadow-xxl);
     }
 
     input,

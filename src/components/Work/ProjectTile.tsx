@@ -22,7 +22,7 @@ const TileContainer = styled.div`
         box-shadow: 0 0 10px var(--fireTeal);
         
         h2 {
-            text-shadow: 0 0 10px var(--pureWhite);
+            text-shadow: var(--text-shadow-xxl);
         }
         
         .plus-hori,
@@ -41,7 +41,7 @@ const TileContainer = styled.div`
         border-color: var(--neonPink);
         
         h2 {
-            text-shadow: 0 0 10px var(--pureWhite);
+            text-shadow: var(--text-shadow-xxl);
         }
         
         .plus-vert {
@@ -88,7 +88,7 @@ const TileHeader = styled.button`
     align-items: flex-end;
     z-index: 2;
     color: var(--pureWhite);
-    text-shadow: 0 0 5px var(--pureWhite);
+    text-shadow: var(--text-shadow-small);
     cursor: pointer;
     text-align: left;
 

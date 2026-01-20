@@ -8,7 +8,7 @@ const ButtonLink = styled.a`
     button {
         border: 1px solid var(--fireTeal);
         background: var(--darkTeal);
-        text-shadow: 0 0 3px var(--pureWhite);
+        text-shadow: var(--text-shadow-large);
         color: var(--pureWhite);
         font-size: 1rem;
         padding: 8px;
