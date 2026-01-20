@@ -20,7 +20,7 @@ const Skills: React.FC = () => {
     return(
         <SectionWrapper>
             <SectionHeading align="center" content="My Skillset" />
-            <SectionSubHeading align="center" content="Front-End and Full-Stack" />
+            <SectionSubHeading align="center" content="Front-End & Full-Stack" />
             <SkillCardGrid>
                 <SkillCard toolName="HTML/CSS/JavaScript/TypeScript" />
                 <SkillCard toolName="React" />
