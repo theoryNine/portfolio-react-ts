@@ -9,18 +9,18 @@ const About: React.FC = () => {
 
       <p>
         Hi, I'm Ansel. I'm a detail-oriented engineer based in Kirkland,
-        Washington, specializing in building AI-powered web applications and
-        intelligent user experiences. With over two decades of web development
-        experience and years of professional impact, I design and ship clean,
-        accessible interfaces paired with modern AI capabilities that solve real
+        Washington, specializing in building intelligent user experiences. With
+        over two decades of web development experience and years of professional
+        impact, I design and ship clean, accessible interfaces that solve real
         problems for organizations of all sizes.
       </p>
 
       <p>
-        Today, I focus on applied AI engineering: integrating LLMs, RAG systems,
-        and machine learning into production web applications using TypeScript,
-        Next.js, and modern AI tooling. I'm passionate about the intersection of
-        thoughtful product design and AI, where complex systems become intuitive
+        Today, I focus on applied AI engineering alongside my front-end and
+        full-stack experience: integrating LLMs, RAG systems, and machine
+        learning into production web applications using TypeScript, Next.js, and
+        modern AI tooling. I'm passionate about the intersection of thoughtful
+        product design and AI, where complex systems become intuitive
         experiences.
       </p>
 
