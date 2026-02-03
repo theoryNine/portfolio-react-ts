@@ -7,6 +7,7 @@ import Work from "../components/Work/Work"
 import Contact from "../components/Contact/Contact"
 import Copyright from "../components/Copyright"
 import Seo from "../components/Seo"
+import Leadership from "../components/Leadership/Leadership"
 
 const IndexPage: React.FC = () => (
   <>
@@ -15,6 +16,7 @@ const IndexPage: React.FC = () => (
       <Hero />
       <About />
       <Skills />
+      <Leadership />
       <Work />
       <Contact />
       <Copyright />
