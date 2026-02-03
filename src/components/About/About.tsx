@@ -8,27 +8,22 @@ const About: React.FC = () => {
       <SectionHeading align="left" content="Nice To Meet You" />
 
       <p>
-        Hi, I'm Ansel. I'm a detail-oriented engineer based in Kirkland,
-        Washington, specializing in building intelligent user experiences. With
-        over two decades of web development experience and years of professional
-        impact, I design and ship clean, accessible interfaces that solve real
-        problems for organizations of all sizes.
+        Hi, I'm Ansel! I'm a senior engineer and engineering leader with 11+
+        years building and scaling enterprise web experiences serving 20M+
+        monthly users.
       </p>
-
       <p>
-        Today, I focus on applied AI engineering alongside my front-end and
-        full-stack experience: integrating LLMs, RAG systems, and machine
-        learning into production web applications using TypeScript, Next.js, and
-        modern AI tooling. I'm passionate about the intersection of thoughtful
-        product design and AI, where complex systems become intuitive
-        experiences.
+        I've got a proven track record leading cross‑functional teams through
+        complex migrations and re‑platforming initiatives, mentoring engineers,
+        and partnering with product and design to deliver measurable business
+        outcomes. I've got deep expertise in front‑end architecture,
+        accessibility, and performance, with hands-on experience introducing
+        responsible AI practices into modern development workflows, improving
+        developer productivity and quality for distributed teams.
       </p>
-
       <p>
-        Whether it's architecting full-stack SaaS platforms, building
-        AI-assisted developer tools, or implementing intelligent features that
-        adapt to user needs, I bring a senior engineer's rigor to emerging
-        technology and a product mindset to every line of code.
+        Outside work: chasing new destinations, gaming, and wherever adventure
+        takes me.
       </p>
     </AboutWrapper>
   )
