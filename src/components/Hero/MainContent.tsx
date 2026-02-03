@@ -59,7 +59,7 @@ const MainContent: React.FC = () => {
   return (
     <>
       <Headline>Ansel Colvin</Headline>
-      <SubHeadline>Senior Engineer</SubHeadline>
+      <SubHeadline>Engineering Leader</SubHeadline>
       <DownloadButton />
     </>
   )
