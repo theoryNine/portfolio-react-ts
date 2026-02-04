@@ -42,7 +42,12 @@ const Leadership: React.FC = () => {
           Introduced AI tooling, boosting productivity across distributed teams
         </LeadershipContent>
         <LeadershipContent>
-          Partnered with Product/Design/Marketing to hit release cadences
+          Partnered with Product/Design/Marketing to hit release cadences in an
+          agile environment
+        </LeadershipContent>
+        <LeadershipContent>
+          Led the choice of new tech stacks and collaborated with design and
+          stakeholders to craft solutions
         </LeadershipContent>
       </LeadershipList>
       <LeadershipHead>Ansira (2017-2022) – Team Lead</LeadershipHead>
@@ -55,6 +60,10 @@ const Leadership: React.FC = () => {
         </LeadershipContent>
         <LeadershipContent>
           Owned a11y strategy, achieving WCAG AA across client portfolios
+        </LeadershipContent>
+        <LeadershipContent>
+          Worked closely with stakeholders and clients to define project scope
+          and deliverables in an agile setting
         </LeadershipContent>
       </LeadershipList>
       <SectionHeading align="center" content="What Drives Me" />
