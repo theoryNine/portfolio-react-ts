@@ -15,8 +15,8 @@ const IndexPage: React.FC = () => (
     <Layout>
       <Hero />
       <About />
-      <Skills />
       <Leadership />
+      <Skills />
       <Work />
       <Contact />
       <Copyright />

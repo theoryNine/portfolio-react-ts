@@ -38,13 +38,13 @@ const SubHeadline = styled.h2`
   }
 `
 
-/* const SmallHeadline = styled.h3`
+const SmallHeadline = styled.h3`
   color: var(--pureWhite);
   font-weight: 300;
   font-size: 1.15rem;
-  font-family: 'Mulish';
+  font-family: "Mulish";
   margin: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   line-height: 1;
   text-transform: lowercase;
   z-index: 2;
@@ -53,13 +53,14 @@ const SubHeadline = styled.h2`
   @media (max-width: 420px) {
     font-size: 15px;
   }
-` */
+`
 
 const MainContent: React.FC = () => {
   return (
     <>
       <Headline>Ansel Colvin</Headline>
       <SubHeadline>Engineering Leader</SubHeadline>
+      <SmallHeadline>Building High-Performing Teams</SmallHeadline>
       <DownloadButton />
     </>
   )
