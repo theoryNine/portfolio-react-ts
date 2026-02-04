@@ -32,7 +32,7 @@ const Leadership: React.FC = () => {
   return (
     <SectionWrapper>
       <SectionHeading align="center" content="Engineering Leadership" />
-      <LeadershipHead>Starbucks (2022-2025) – Acting Tech Lead</LeadershipHead>
+      <LeadershipHead>Starbucks (2022-2025) – Tech Lead</LeadershipHead>
       <LeadershipList>
         <LeadershipContent>
           Directed 4-engineer team through AEM re-platforming for 18-21M
