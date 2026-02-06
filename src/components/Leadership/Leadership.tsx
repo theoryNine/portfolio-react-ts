@@ -35,7 +35,7 @@ const Leadership: React.FC = () => {
       <LeadershipHead>Starbucks (2022-2025) – Tech Lead</LeadershipHead>
       <LeadershipList>
         <LeadershipContent>
-          Directed 4-engineer team through AEM re-platforming for 18-21M
+          Directed 4-engineer team through AEM re-platforming for 30-40M
           visit/mo sites
         </LeadershipContent>
         <LeadershipContent>

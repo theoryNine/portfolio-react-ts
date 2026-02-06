@@ -40,7 +40,7 @@ export const ProjectData: Project[] = [
     liveUrl: "https://www.starbucks.com/",
     role: "Front-End Lead",
     description:
-      "Led a team of front-end engineers alongside back-end engineers, devOps, and QA specialists to build and maintain multiple web properties for Starbucks seeing over 21 million monthly visitors, working with apps and multiple backend systems. Led the development and execution of UI migrations for the sites to a new CMS platform.",
+      "Led a team of front-end engineers alongside back-end engineers, devOps, and QA specialists to build and maintain multiple web properties for Starbucks seeing over 30 million monthly visitors, working with apps and multiple backend systems. Led the development and execution of UI migrations for the sites to a new CMS platform.",
     stack:
       "Adobe Experience Manager (AEM), React, CSS/SASS, JavaScript, TypeScript, Azure DevOps, Zustand, Tanstack Query, GraphQL, Accessibility (a11y), Jest, Cypress, Storybook",
   },
