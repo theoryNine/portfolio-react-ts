@@ -31,39 +31,46 @@ const LeadershipContent = styled.li`
 const Leadership: React.FC = () => {
   return (
     <SectionWrapper>
-      <SectionHeading align="center" content="Engineering Leadership" />
+      <SectionHeading
+        align="center"
+        content="Program Management &Engineering Leadership"
+      />
       <LeadershipHead>Starbucks (2022-2025) – Tech Lead</LeadershipHead>
       <LeadershipList>
         <LeadershipContent>
-          Directed 4-engineer team through AEM re-platforming for 30-40M
-          visit/mo sites
+          Led end-to-end planning and execution of enterprise CMS re-platforming
+          program for global marketing sites serving 30-40M monthly visits
         </LeadershipContent>
         <LeadershipContent>
-          Introduced AI tooling, boosting productivity across distributed teams
+          Owned program roadmap, sprint planning, and release coordination for
+          4-engineer team, managing dependencies across multiple platform teams
         </LeadershipContent>
         <LeadershipContent>
-          Partnered with Product/Design/Marketing to hit release cadences in an
-          agile environment
+          Drove stakeholder alignment across engineering, product, design, and
+          marketing to deliver on-time launches with zero critical delays
         </LeadershipContent>
         <LeadershipContent>
-          Led the choice of new tech stacks and collaborated with design and
-          stakeholders to craft solutions
+          Established AI-assisted development practices and engineering tooling
+          standards adopted across multiple teams
         </LeadershipContent>
       </LeadershipList>
       <LeadershipHead>Ansira (2017-2022) – Team Lead</LeadershipHead>
       <LeadershipList>
         <LeadershipContent>
-          Hired/onboarded developers, established code review standards
+          Led cross-functional delivery for 3-5 concurrent client platforms,
+          coordinating front-end, back-end, QA, and design teams
         </LeadershipContent>
         <LeadershipContent>
-          Led CMS migrations for enterprise clients, guiding juniors end-to-end
+          Owned end-to-end program planning for major CMS migrations across 6-12
+          month timelines
         </LeadershipContent>
         <LeadershipContent>
-          Owned a11y strategy, achieving WCAG AA across client portfolios
+          Built and scaled engineering team from 2 to 8 developers, reducing
+          onboarding time by 30%
         </LeadershipContent>
         <LeadershipContent>
-          Worked closely with stakeholders and clients to define project scope
-          and deliverables in an agile setting
+          Established accessibility compliance program achieving WCAG AA across
+          enterprise client portfolios
         </LeadershipContent>
       </LeadershipList>
       <SectionHeading align="center" content="What Drives Me" />

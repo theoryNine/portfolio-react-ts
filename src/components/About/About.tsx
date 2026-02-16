@@ -8,15 +8,15 @@ const About: React.FC = () => {
       <SectionHeading align="left" content="Nice To Meet You" />
 
       <p>
-        Hi, I'm Ansel! I'm a senior engineer and engineering leader with 11+
-        years building and scaling enterprise web experiences serving 20M+
-        monthly users.
+        Hi, I'm Ansel! I'm a Technical Program Manager and engineering leader
+        with 11+ years building and scaling enterprise web experiences serving
+        30M+ monthly visits.
       </p>
       <p>
-        I've got a proven track record leading cross‑functional teams through
+        I have a proven track record leading cross‑functional teams through
         complex migrations and re‑platforming initiatives, mentoring engineers,
         and partnering with product and design to deliver measurable business
-        outcomes. I've got deep expertise in front‑end architecture,
+        outcomes. I come with deep expertise in front‑end architecture,
         accessibility, and performance, with hands-on experience introducing
         responsible AI practices into modern development workflows, improving
         developer productivity and quality for distributed teams.

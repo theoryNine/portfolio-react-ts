@@ -28,7 +28,7 @@ const DownloadButton: React.FC = () => {
     <ResumeButton
       target="_blank"
       rel="noopener"
-      href="https://www.dropbox.com/scl/fi/l3bqzx5d11ka8mbsfgb80/Ansel-Colvin-Resume-EM.pdf?rlkey=qvamxmcticlqgk29i1v5cre9m&dl=0"
+      href="https://www.dropbox.com/scl/fi/m946o71p7xm3xq51lxdei/Ansel-Colvin-Resume-TPM.pdf?rlkey=fkxuoqfonpk9v29365gy59rt5&dl=0"
     >
       <button>Access Resume</button>
     </ResumeButton>
