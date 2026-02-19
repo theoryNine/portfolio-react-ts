@@ -8,9 +8,8 @@ const About: React.FC = () => {
       <SectionHeading align="left" content="Nice To Meet You" />
 
       <p>
-        Hi, I'm Ansel! I'm a Technical Program Manager and engineering leader
-        with 11+ years building and scaling enterprise web experiences serving
-        30M+ monthly visits.
+        Hi, I'm Ansel! I'm an engineering leader with 11+ years building and
+        scaling enterprise web experiences serving 30M+ monthly visits.
       </p>
       <p>
         I have a proven track record leading cross‑functional teams through
