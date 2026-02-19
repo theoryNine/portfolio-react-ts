@@ -33,13 +33,13 @@ const Leadership: React.FC = () => {
     <SectionWrapper>
       <SectionHeading
         align="center"
-        content="Program Management &Engineering Leadership"
+        content="Engineering Leadership & Program Management"
       />
       <LeadershipHead>Starbucks (2022-2025) – Tech Lead</LeadershipHead>
       <LeadershipList>
         <LeadershipContent>
           Led end-to-end planning and execution of enterprise CMS re-platforming
-          program for global marketing sites serving 30-40M monthly visits
+          program for global marketing sites serving 30-40M+ monthly visits
         </LeadershipContent>
         <LeadershipContent>
           Owned program roadmap, sprint planning, and release coordination for

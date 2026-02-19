@@ -59,8 +59,11 @@ const MainContent: React.FC = () => {
   return (
     <>
       <Headline>Ansel Colvin</Headline>
-      <SubHeadline>Technical Program Manager</SubHeadline>
-      <SmallHeadline>Delivering Enterprise-Scale Programs</SmallHeadline>
+      {/* <SubHeadline>Technical Program Manager</SubHeadline>*/}
+      <SmallHeadline>
+        Leading engineering teams and complex technical programs to deliver at
+        scale
+      </SmallHeadline>
       <DownloadButton />
     </>
   )
