@@ -83,6 +83,13 @@ const DownloadButton: React.FC = () => {
           <a
             target="_blank"
             rel="noopener"
+            href="https://www.dropbox.com/scl/fi/0ahz2g8uypyqgybrlbmkf/Ansel-Colvin-Resume-Eng.pdf?rlkey=ch0u2v2nhwi9gwygav9pibu3x&dl=0"
+          >
+            Senior Software Engineer
+          </a>
+          <a
+            target="_blank"
+            rel="noopener"
             href="https://www.dropbox.com/scl/fi/m946o71p7xm3xq51lxdei/Ansel-Colvin-Resume-TPM.pdf?rlkey=fkxuoqfonpk9v29365gy59rt5&dl=0"
           >
             Technical Program Manager
