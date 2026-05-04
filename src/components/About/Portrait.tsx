@@ -1,5 +1,5 @@
 import React from "react"
-import Picture from "../../images/headshot.jpg"
+import Picture from "../../images/ansel-light.jpg"
 import styled from "styled-components"
 
 const Image = styled.img`
